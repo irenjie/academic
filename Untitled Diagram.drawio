@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-01-15T13:19:01.236Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" etag="HAg53wzW_3gnNa4DMo7p" version="14.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-15T13:20:41.449Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" etag="_rRUi88NrLx20J3GtGR_" version="14.2.3" type="github">
   <diagram id="bYCMtpQb0P-SUWCextDR" name="Page-1">
     <mxGraphModel dx="732" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -66,6 +66,9 @@
         </mxCell>
         <mxCell id="IxGD9xISUuPVu5oPl4a2-21" value="&lt;b&gt;消息中继给 CAN 总线&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="405" y="310" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="IxGD9xISUuPVu5oPl4a2-22" value="图3-1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="355" y="400" width="50" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
