@@ -1,65 +1,179 @@
-<mxfile host="app.diagrams.net" modified="2021-01-21T09:26:25.302Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" etag="rSKJx9lRiLmTP3TBkv3c" version="14.2.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-01-21T10:18:57.349Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.141 Safari/537.36 Edg/87.0.664.75" etag="6iGwV5nt_b_sGd1_ppm7" version="14.2.6" type="github">
   <diagram name="Page-1" id="bd83a815-5ea8-2e97-e5ec-87c9f400f2fa">
-    <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="680" dy="491" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" style=";html=1;" />
         <mxCell id="1" style=";html=1;" parent="0" />
-        <mxCell id="WzcwfJ7gUM0HH6AXqhER-14" value="连接阶段" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="300" y="160" width="360" height="60" as="geometry" />
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-14" value="V1,1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="300" y="190" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WzcwfJ7gUM0HH6AXqhER-15" value="通信阶段" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="660" y="160" width="240" height="60" as="geometry" />
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-17" value="A1.1&lt;br&gt;位置信息泄露" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="180" y="220" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WzcwfJ7gUM0HH6AXqhER-16" value="广播阶段" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="900" y="160" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WzcwfJ7gUM0HH6AXqhER-17" value="漏洞" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="180" y="220" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WzcwfJ7gUM0HH6AXqhER-18" value="测试结果" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="180" y="280" width="120" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="WzcwfJ7gUM0HH6AXqhER-20" value="无连接层认证(V1.1)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="300" y="220" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WzcwfJ7gUM0HH6AXqhER-21" value="无应用层认证(V1.2)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="420" y="220" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WzcwfJ7gUM0HH6AXqhER-22" value="无法过滤未定义的CAN总线消息(V3)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="660" y="220" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WzcwfJ7gUM0HH6AXqhER-23" value="允许多个设备&lt;br&gt;连接(V2)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="540" y="220" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WzcwfJ7gUM0HH6AXqhER-24" value="固件破坏&lt;br&gt;和提取(V4)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="780" y="220" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WzcwfJ7gUM0HH6AXqhER-25" value="根据广播信息识别漏洞" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="900" y="220" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="WzcwfJ7gUM0HH6AXqhER-26" value="&lt;span style=&quot;font-family: &amp;#34;calibri&amp;#34;&quot;&gt;&lt;font style=&quot;font-size: 12px&quot;&gt;92.21％的加密狗没有连接层身份验证&lt;/font&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="300" y="280" width="120" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="WzcwfJ7gUM0HH6AXqhER-27" value="&lt;span style=&quot;font-family: &amp;#34;calibri&amp;#34;&quot;&gt;77个加密狗中只有1个具有应用层认证&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="420" y="280" width="120" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="WzcwfJ7gUM0HH6AXqhER-28" value="&lt;p style=&quot;margin-top: 0pt ; margin-bottom: 0pt ; margin-left: 0in ; direction: ltr ; unicode-bidi: embed ; word-break: normal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;calibri&amp;#34;&quot;&gt;49个Wi-Fi加密狗中，发现其中29个（37.66％）允许多个设备访问&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="540" y="280" width="120" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="WzcwfJ7gUM0HH6AXqhER-29" value="&lt;p style=&quot;margin-top: 0pt ; margin-bottom: 0pt ; margin-left: 0in ; direction: ltr ; unicode-bidi: embed ; word-break: normal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;calibri&amp;#34;&quot;&gt;67.53％的加密狗无法过滤出未定义的CAN总线消息&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="660" y="280" width="120" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="WzcwfJ7gUM0HH6AXqhER-30" value="&lt;p style=&quot;margin-top: 0pt ; margin-bottom: 0pt ; margin-left: 0in ; direction: ltr ; unicode-bidi: embed ; word-break: normal&quot;&gt;&lt;span style=&quot;font-family: &amp;#34;calibri&amp;#34;&quot;&gt;4&lt;/span&gt;&lt;span&gt;个加密狗具有固件升级能力，其中有3个没有应用层认证&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="780" y="280" width="120" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="WzcwfJ7gUM0HH6AXqhER-31" value="&lt;p style=&quot;margin-top: 0pt ; margin-bottom: 0pt ; margin-left: 0in ; direction: ltr ; unicode-bidi: embed ; word-break: normal&quot;&gt;&lt;span&gt;发现使用此类广播信息，可以针对其漏洞状态以唯一的方式识别出33个（42.86％）加密狗&lt;/span&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="900" y="280" width="120" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="WzcwfJ7gUM0HH6AXqhER-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-32" value="攻击例子" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="180" y="160" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WzcwfJ7gUM0HH6AXqhER-33" value="表5-1" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
-          <mxGeometry x="575" y="410" width="50" height="20" as="geometry" />
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-35" value="条件" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="300" y="160" width="360" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-36" value="V1,2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="360" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-37" value="V2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="420" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-38" value="V3" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="480" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-39" value="V4" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="540" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-41" value="A2&lt;br&gt;财产盗窃" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="180" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-42" value="A1.3&lt;br&gt;CAN总线流量泄露" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="180" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-43" value="A1.2&lt;br&gt;诊断数据泄露" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="180" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-44" value="A3&lt;br&gt;车辆控制干扰" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="180" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-45" value="A4&lt;br&gt;车载网络渗透" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="180" y="420" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-46" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;√&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="220" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-53" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="220" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-54" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;lantinghei sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;arial&amp;#34; , , sans-serif , &amp;#34;tahoma&amp;#34; ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;〇&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="220" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-58" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;√&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="260" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-60" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="260" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-61" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;〇&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="260" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-63" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;√&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-65" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="300" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-66" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;〇&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="300" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-68" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;√&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="340" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-70" value="&#xa;&#xa;&lt;b style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;√&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="340" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-71" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;〇&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="340" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-73" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;√&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="380" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-75" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;√&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="380" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-76" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;〇&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="380" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-78" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;√&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="420" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-80" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="420" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-81" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;〇&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="420" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-83" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;√&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="220" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-84" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;√&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="260" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-85" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;√&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="300" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-86" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;√&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="340" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-87" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;√&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="380" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-88" value="&lt;b&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;√&lt;/font&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="420" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-89" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="220" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-90" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="260" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-91" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="300" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-92" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="340" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-93" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="380" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-94" value="&#xa;&#xa;&lt;b style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250);&quot;&gt;&lt;font style=&quot;font-size: 16px&quot;&gt;√&lt;/font&gt;&lt;/b&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="420" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-95" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: &amp;#34;pingfang sc&amp;#34; , &amp;#34;lantinghei sc&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;arial&amp;#34; , , sans-serif , &amp;#34;tahoma&amp;#34; ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;〇&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="220" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-96" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;〇&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="260" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-97" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;〇&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="300" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-98" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;〇&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="340" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-99" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;〇&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="380" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-100" value="&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-size: 16px ; background-color: rgb(255 , 255 , 255)&quot;&gt;〇&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="600" y="420" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-101" value="V5" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="600" y="190" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-102" value="&lt;font style=&quot;font-size: 14px&quot;&gt;受攻击的OBD-II&lt;span&gt;加密狗(%)&lt;/span&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="660" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-103" value="65(84.42%)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="220" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-104" value="&lt;span&gt;65(84.42%)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="260" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-105" value="&lt;span&gt;65(84.42%)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="300" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-106" value="46(59.74%)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-107" value="&#xa;&#xa;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: helvetica; font-size: 12px; font-style: normal; font-weight: 400; letter-spacing: normal; text-align: center; text-indent: 0px; text-transform: none; word-spacing: 0px; background-color: rgb(248, 249, 250); display: inline; float: none;&quot;&gt;46(59.74%)&lt;/span&gt;&#xa;&#xa;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="380" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WzcwfJ7gUM0HH6AXqhER-108" value="2(2.60%)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="420" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
